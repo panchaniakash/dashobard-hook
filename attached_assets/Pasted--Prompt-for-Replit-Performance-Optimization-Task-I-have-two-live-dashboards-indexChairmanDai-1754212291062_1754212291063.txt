@@ -1,0 +1,72 @@
+🛠️ Prompt for Replit: Performance Optimization Task
+
+I have two live dashboards: indexChairmanDaily and indexChairmanMonthly, built using JavaScript, HTML, and CSS. Both dashboards are fully functional, but I’m currently experiencing performance issues—especially during filter selection and chart updates. These actions cause noticeable delays in responsiveness and rendering.
+
+🔧 Task:
+Please optimize the performance of the indexChairmanDaily dashboard without changing any of its core logic or functionality.
+
+🎯 Objectives:
+Make the dashboard load faster.
+
+Improve filter responsiveness and chart rendering speed.
+
+Ensure smoother user interactions with zero functional changes.
+
+✅ Allowed Improvements:
+Use Node.js or advanced Node.js concepts for backend optimization.
+
+Use JavaScript, HTML, and CSS for the frontend (no TypeScript).
+
+Optimize performance using techniques such as:
+
+Asynchronous data fetching
+
+Smart caching strategies
+
+Server-Side Rendering (SSR) if beneficial
+
+Dynamic/lazy loading of assets (scripts/charts/data)
+
+You may enhance chart performance using tools like Chart.js, D3.js, or similar—but maintain the same charts and behavior.
+
+Constraints:
+Do not change or remove any existing functionality.
+
+All grid layouts and chart positions must remain exactly the same.
+
+If the grids are editable in the current version, they must remain editable.
+
+Do not use TypeScript.
+
+And the UI note section should also be updated slightly for clarity:
+
+📝 Notes:
+The UI must remain exactly the same—no visual or structural changes.
+
+All charts and grids must look and function exactly as before.
+
+This is strictly a performance optimization task only.
+
+All existing interactivity (e.g., editable grids, chart interactions) must remain intact.
+
+You will be connecting to MSSQL using the .env file provided.
+
+Here are the .env details:
+
+ini
+Copy
+Edit
+DB_HOST='123.45.6.2'
+DB_PORT=1433
+DB_USER='db'
+DB_PASSWD='db@123'
+DB='DB'
+SCHEMA=dbo
+
+# Access Key
+ACCESS_TOKEN=ea44fc101aa6ed91da192fad74bffd37a94992e59732669edcb6d21de18315a3c657c8c6455c9d8daaf7539f5144c0dc1a50ac005593f6abc6a7ab82dc4bc9fa
+
+PORT=81
+📦 I’ve uploaded the full source code for the indexChairmanDaily dashboard.
+
+Once this is successfully optimized and verified, I’ll provide the code for the second dashboard (indexChairmanMonthly) for a similar performance upgrade.
